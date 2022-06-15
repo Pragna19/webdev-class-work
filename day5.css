@@ -1,0 +1,18 @@
+.firstbox{
+    border: black 2px solid;
+}
+#second_ul{
+    background-color: aqua;
+}
+ol {
+    background-color: blueviolet;
+}
+p[name="first_p_tag"]{
+    background-color: blueviolet;
+}
+p[name=]{
+    background-color:brown;
+}
+body{
+    background-color: beige;
+}

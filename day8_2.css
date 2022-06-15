@@ -1,0 +1,38 @@
+.btn{
+    background-color: red;
+    color: azure;
+}
+
+/* PSUEO CLASS */
+
+/* on the button */
+.btn:hover{
+    background-color: blueviolet;
+    color: aqua;
+}
+/* click on the button */
+.btn:active{
+    background-color: black;
+    color: yellow;
+}
+/* after clicking on the button */
+.btn:focus{
+    background-color: green;
+    color: white;
+}
+
+/* PSUEDO ELEMENTS */
+
+.para::before{
+    content:"My name is: ";
+    color: brown;
+}
+
+.para::after{
+    content:" Rakesh ";
+    color: brown;
+}
+
+.para::selection{
+    background-color:thistle;
+}
